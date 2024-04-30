@@ -22,12 +22,15 @@ const Header = () => {
 
           <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
             <li>
-              <a href="#head-h1" className="nav-link px-2 text-secondary">
+              <a
+                href="https://www.dmitrimorozov.com"
+                className="nav-link px-2 text-secondary"
+              >
                 Home
               </a>
             </li>
             <li>
-              <a href="#head-h1" className="nav-link px-2 text-white">
+              <a href="#about" className="nav-link px-2 text-white">
                 About
               </a>
             </li>
@@ -43,7 +46,7 @@ const Header = () => {
               placeholder="Search..."
               aria-label="Search"
             />
-          </form> 
+          </form>
 
           <div className="text-end">
             <button type="button" className="btn btn-outline-light me-2">
@@ -60,4 +63,3 @@ const Header = () => {
 };
 
 export default Header;
-
